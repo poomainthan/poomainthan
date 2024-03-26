@@ -91,7 +91,7 @@ function App() {
                 </br>
                 <form method="get" action="https://drive.google.com/file/d/1RR5jzW5d5xc3gaSrhH436owh_88lfCil/view?usp=sharing">
                 <button className="px-8 shadow-gray-500 shadow-md py-5 mt-5 bg-gradient-to-t from-blue-400 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-500">
-                 View Resume!!
+                 View esume!!
                 </button>
                 </form>
               </div>
@@ -124,11 +124,12 @@ function App() {
                   <button className="flex-1 text-sm py-3 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
                     Live preview
                   </button>
-                  <form method="get" action="https://github.com/poomainthan/Counterfiet-Deterrence-System-IoT-.git">
-                  <button className="flex-1 text-sm py-3 border rounded-full hover:border-blue-500 hover:text-blue-500">
+                  <a href="https://github.com/poomainthan/Counterfiet-Deterrence-System-IoT-.git" alt="not valid">
+                  <button className="flex-1 text-sm py-3 border rounded-full hover:border-blue-500 hover:text-blue-500" >
                     Checkout github
                   </button>
-                  </form>
+                  </a>
+      
                 </div>
               </div>
               <div className="border border-gray-500 rounded-md p-5 flex-1">
