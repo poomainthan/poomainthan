@@ -89,9 +89,9 @@ function App() {
                 </br>
                 <br>
                 </br>
-                <form method="get" action=".\src\assets\download.pdf">
+                <form method="get" action="https://drive.google.com/file/d/1RR5jzW5d5xc3gaSrhH436owh_88lfCil/view?usp=sharing">
                 <button className="px-8 shadow-gray-500 shadow-md py-5 mt-5 bg-gradient-to-t from-blue-400 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-500">
-                 Download resume!!
+                 View Resume!!
                 </button>
                 </form>
               </div>
@@ -113,19 +113,22 @@ function App() {
               <div className="border border-gray-500 rounded-md p-5 flex-1">
                 <img src={Project1} className="w-full h-auto" />
                 <h3 className="text-2xl font-semibold mt-8">
-                  Furniture store landing page
+                Counterfiet Deterrence System using UV 
                 </h3>
                 <p className="text-gray-400 text-sm mt-2">
-                  Responsive HTML/CSS layout for online furniture store. HTML5,
-                  CSS3 (SCSS)
+                  This  project was done  as part of the coursework for my Computer Science and Business Systems(CSBS) degree at
+                  A simple and efficient system for detecting counterfeit products using Ultraviolet(UV) light technology. The project was developed
+                  an Artificial Intelligence based system for detecting counterfeit products in  the marketplace utilizing Ultraviolet in Photocopy machine.
                 </p>
                 <div className="flex mt-12 gap-2">
                   <button className="flex-1 text-sm py-3 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
                     Live preview
                   </button>
+                  <form method="get" action="https://github.com/poomainthan/Counterfiet-Deterrence-System-IoT-.git">
                   <button className="flex-1 text-sm py-3 border rounded-full hover:border-blue-500 hover:text-blue-500">
                     Checkout github
                   </button>
+                  </form>
                 </div>
               </div>
               <div className="border border-gray-500 rounded-md p-5 flex-1">
