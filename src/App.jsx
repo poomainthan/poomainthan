@@ -88,7 +88,7 @@ function App() {
                 </br>
                 <br>
                 </br>
-                <form method="get" action="./src/assets/download.pdf">
+                <form method="get" action=".\src\assets\download.pdf">
                 <button className="px-8 shadow-gray-500 shadow-md py-5 mt-5 bg-gradient-to-t from-blue-400 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-500">
                  Download resume!!
                 </button>
