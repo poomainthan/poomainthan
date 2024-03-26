@@ -9,6 +9,7 @@ import Facebook from "./assets/facebook.svg";
 import LinkedIn from "./assets/linkedin.svg";
 import Instagram from "./assets/instagram.svg";
 import ArrowDown from "./assets/arrow-down.svg";
+
 import { useEffect, useState } from "react";
 
 function App() {
@@ -133,7 +134,7 @@ function App() {
                   Designer furniture store landing page
                 </h3>
                 <p className="text-gray-400 text-sm mt-2">
-                  Responsive HTML/CSS layout for online store of designer
+                  Responsive HTML/CSS layout for online store of designer
                   furniture. HTML5, CSS3 (SCSS)
                 </p>
                 <div className="flex gap-2 mt-12">
@@ -153,7 +154,7 @@ function App() {
                   Landing page for front-end developer
                 </h3>
                 <p className="text-gray-400 text-sm mt-2">
-                  Responsive HTML/CSS layout for landing page for front-end
+                  Responsive HTML/CSS layout for landing page for front-end
                   developer. HTML5, CSS3 (SCSS)
                 </p>
                 <div className="flex gap-4 mt-12">
@@ -168,10 +169,10 @@ function App() {
               <div className="border border-gray-500 rounded-md p-5 flex-1">
                 <img src={Project4} className="w-full h-auto" />
                 <h3 className="text-2xl font-semibold mt-8">
-                  Website redesign for The Venus project
+                  Website redesign for The Venus project
                 </h3>
                 <p className="text-gray-400 text-sm mt-2">
-                  Responsive HTML/CSS layout for The Venus project. HTML5, CSS3
+                  Responsive HTML/CSS layout for The Venus project. HTML5, CSS3
                   (SCSS)
                 </p>
                 <div className="flex gap-2 mt-12">
@@ -323,7 +324,7 @@ function App() {
               <div className="pl-24 mt-24 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:absolute before:rounded-full before:left-[58px]">
                 <h3 className="absolute left-0 text-lg font-semibold">2015</h3>
                 <p>
-                  Worked out in which field I want to build a developer's career
+                  Worked out in which field I want to build a developers career
                   and started to learn Frontend Development.
                 </p>
               </div>
