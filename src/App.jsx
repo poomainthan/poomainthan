@@ -97,7 +97,7 @@ function App() {
               </div>
             </div>
             <div className="relative">
-              <div className="after:bg-contain after:block  after:w-[400px] after:h-[400px] after:absolute  after:top-20 after:-left-40 sm:after:-left-70  before:bg-contain before:block before:bg-no-repeat before:w-[550px] before:h-[550px] before:absolute before:bottom-0 before:-right-50 "
+              <div className="after:bg-[url('./large-long.png')] after:bg-contain after:block  after:w-[400px] after:h-[400px] after:absolute  after:top-20 after:-left-40 sm:after:-left-70 before:bg-[url('./small.png')] before:bg-contain before:block before:bg-no-repeat before:w-[550px] before:h-[550px] before:absolute before:bottom-0 before:-right-50 "
               // style={{backgroundImage:`url()`}}
               >
                 <img src={Porfile} className="relative z-10 w-[280px] m-auto sm:w-[600px] profile-picture" />
