@@ -80,8 +80,8 @@ function App() {
                 </br>
               <div>
                 <p className="mt-4 text-gray-400 ">
-                Hi, I’m Poomainthan M , currently am a 3rd-year B.Tech/CSBS Student.
-                My goal is to Cloud Engineer (DevOps). Let’s work together.
+                Hi, I{"’"}m Poomainthan M , currently am a 3rd-year B.Tech/CSBS Student.
+                My goal is to Cloud Engineer (DevOps). Let{"’"}s work together.
                 </p>
                 <br>
                 </br>
@@ -91,7 +91,7 @@ function App() {
                 </br>
                 <form method="get" action="https://drive.google.com/file/d/1RR5jzW5d5xc3gaSrhH436owh_88lfCil/view?usp=sharing">
                 <button className="px-8 shadow-gray-500 shadow-md py-5 mt-5 bg-gradient-to-t from-blue-400 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-500">
-                 View resume!!
+                 View esume!!
                 </button>
                 </form>
               </div>
