@@ -65,8 +65,10 @@ function App() {
       </header>
       <main className="relative mt-28">
 
+        {
+        /* Intro/Banner section */
+        }
         
-        {/* Intro/Banner section */}
         <section>
           <div className="container m-auto px-4 pt-12 pb-12 sm:pt-20 flex flex-col sm:flex-row gap-6  sm:text-left">
             <div>
@@ -97,9 +99,7 @@ function App() {
               </div>
             </div>
             <div className="relative">
-              <div className="after:bg-[url('./large-long.png')] after:bg-contain after:block  after:w-[400px] after:h-[400px] after:absolute  after:top-20 after:-left-40 sm:after:-left-70 before:bg-[url('./small.png')] before:bg-contain before:block before:bg-no-repeat before:w-[550px] before:h-[550px] before:absolute before:bottom-0 before:-right-50 "
-              // style={{backgroundImage:`url()`}}
-              >
+              <div className="after:bg-[url('./large-long.png')] after:bg-contain after:block  after:w-[400px] after:h-[400px] after:absolute  after:top-20 after:-left-40 sm:after:-left-70 before:bg-[url('./small.png')] before:bg-contain before:block before:bg-no-repeat before:w-[550px] before:h-[550px] before:absolute before:bottom-0 before:-right-50 ">
                 <img src={Porfile} className="relative z-10 w-[280px] m-auto sm:w-[600px] profile-picture" />
               </div>
             </div>
@@ -122,19 +122,21 @@ function App() {
                   A simple and efficient system for detecting counterfeit products using Ultraviolet(UV) light technology. The project was developed
                   an Artificial Intelligence based system for detecting counterfeit products in  the marketplace utilizing Ultraviolet in Photocopy machine.
                 </p>
+                <form>
                 <div className="flex mt-12 gap-2">
   
-                  <button className="flex-1 text-sm py-3 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
+                  <button formMethod="get" formAction="https://google.com/" className="flex-1 text-sm py-3 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
                     Live preview
                   </button>
            
                  
-                  <button className="flex-1 text-sm py-3 border rounded-full hover:border-blue-500 hover:text-blue-500" >
+                  <button formMethod="get" formAction="https://github.com/poomainthan/Counterfiet-Deterrence-System-IoT-.git" className="flex-1 text-sm py-3 border rounded-full hover:border-blue-500 hover:text-blue-500" >
                     Checkout github
                   </button>
                   
       
                 </div>
+                </form>
               </div>
               <div className="border border-gray-500 rounded-md p-5 flex-1">
                 <img src={Project2} className="w-full h-auto" />
@@ -145,14 +147,21 @@ function App() {
                   Responsive HTML/CSS layout for online store of designer
                   furniture. HTML5, CSS3 (SCSS)
                 </p>
-                <div className="flex gap-2 mt-12">
-                  <button className="flex-1 text-sm py-3 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
+                <form>
+                <div className="flex mt-12 gap-2">
+  
+                  <button formMethod="get" formAction="https://google.com/" className="flex-1 text-sm py-3 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
                     Live preview
                   </button>
-                  <button className="flex-1 text-sm py-3 border rounded-full hover:border-blue-500 hover:text-blue-500">
+           
+                 
+                  <button formMethod="get" formAction="https://github.com/poomainthan/Counterfiet-Deterrence-System-IoT-.git" className="flex-1 text-sm py-3 border rounded-full hover:border-blue-500 hover:text-blue-500" >
                     Checkout github
                   </button>
+                  
+      
                 </div>
+                </form>
               </div>
             </div>
             <div className="flex flex-col sm:flex-row  gap-10 mt-11">
@@ -165,14 +174,21 @@ function App() {
                   Responsive HTML/CSS layout for landing page for front-end
                   developer. HTML5, CSS3 (SCSS)
                 </p>
-                <div className="flex gap-4 mt-12">
-                  <button className="flex-1 text-sm py-3 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
+                <form>
+                <div className="flex mt-12 gap-2">
+  
+                  <button formMethod="get" formAction="https://google.com/" className="flex-1 text-sm py-3 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
                     Live preview
                   </button>
-                  <button className="flex-1 text-sm py-3 border rounded-full hover:border-blue-500 hover:text-blue-500">
+           
+                 
+                  <button formMethod="get" formAction="https://github.com/poomainthan/Counterfiet-Deterrence-System-IoT-.git" className="flex-1 text-sm py-3 border rounded-full hover:border-blue-500 hover:text-blue-500" >
                     Checkout github
                   </button>
+                  
+      
                 </div>
+                </form>
               </div>
               <div className="border border-gray-500 rounded-md p-5 flex-1">
                 <img src={Project4} className="w-full h-auto" />
@@ -183,14 +199,21 @@ function App() {
                   Responsive HTML/CSS layout for The Venus project. HTML5, CSS3
                   (SCSS)
                 </p>
-                <div className="flex gap-2 mt-12">
-                  <button className="flex-1 text-sm py-3 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
+                <form>
+                <div className="flex mt-12 gap-2">
+  
+                  <button formMethod="get" formAction="https://google.com/" className="flex-1 text-sm py-3 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
                     Live preview
                   </button>
-                  <button className="flex-1 text-sm py-3 border rounded-full hover:border-blue-500 hover:text-blue-500">
+           
+                 
+                  <button formMethod="get" formAction="https://github.com/poomainthan/Counterfiet-Deterrence-System-IoT-.git" className="flex-1 text-sm py-3 border rounded-full hover:border-blue-500 hover:text-blue-500" >
                     Checkout github
                   </button>
+                  
+      
                 </div>
+                </form>
               </div>
             </div>
           </div>
