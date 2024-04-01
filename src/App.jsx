@@ -1,7 +1,7 @@
 import "./App.css";
 
 import Porfile from "./assets/me.jpg";
-import Project1 from "./assets/project1.png";
+import Project1 from "./assets/UVMoneyDetector.jpg";
 import Project2 from "./assets/project2.png";
 import Project3 from "./assets/project3.png";
 import Project4 from "./assets/project4.png";
@@ -68,7 +68,7 @@ function App() {
         {
         /* Intro/Banner section */
         }
-        
+
         <section>
           <div className="container m-auto px-4 pt-12 pb-12 sm:pt-20 flex flex-col sm:flex-row gap-6  sm:text-left">
             <div>
@@ -105,11 +105,9 @@ function App() {
             </div>
           </div>
         </section>
-
-
         {/* Projects section */}
         <section id="projects">
-          <div className="container m-auto px-4 sm:py-12">
+          <div className="container m-auto px-4 sm:py-12 flex flex-col">
             <h2 className="text-2xl font-semibold">Projects</h2>
             <div className="flex flex-col sm:flex-row gap-10 mt-11">
               <div className="border border-gray-500 rounded-md p-5 flex-1">
