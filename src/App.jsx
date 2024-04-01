@@ -93,7 +93,7 @@ function App() {
                 </br>
                 <form method="get" action="https://drive.google.com/file/d/1RR5jzW5d5xc3gaSrhH436owh_88lfCil/view?usp=sharing">
                 <button className="px-8 shadow-gray-500 shadow-md py-5 mt-5 bg-gradient-to-t from-blue-400 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-500">
-                 View esume!!
+                 View Resume!!
                 </button>
                 </form>
               </div>
