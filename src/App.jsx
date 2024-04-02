@@ -74,7 +74,7 @@ function App() {
             <div>
               <h2 className="font-bold text-4xl ">Hi, Its Poomainthan M,</h2>
               <div>
-                <h2 className="font-bold text-4xl mt-1 gradiant-text">Tech Enthusiast</h2>
+                <h2 className="font-bold text-4xl mt-1 gradiant-text">Tech Enthusiast...!!!</h2>
               </div>
               <br>
                 </br>
