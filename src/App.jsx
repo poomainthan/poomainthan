@@ -2,7 +2,7 @@ import "./App.css";
 
 import Porfile from "./assets/me.jpg";
 import Project1 from "./assets/UVMoneyDetector.jpg";
-import Project2 from "./assets/project2.png";
+import Project2 from "./assets/project02.png";
 import Project3 from "./assets/project3.png";
 import Project4 from "./assets/project4.png";
 import Facebook from "./assets/facebook.svg";
@@ -136,20 +136,15 @@ function App() {
               <div className="border border-gray-500 rounded-md p-5 flex-1">
                 <img src={Project2} className="w-full h-auto" />
                 <h3 className="text-2xl font-semibold mt-8">
-                  Designer furniture store landing page
+                  (IaaS) based Cloudy
                 </h3>
                 <p className="text-gray-400 text-sm mt-2">
-                  Responsive HTML/CSS layout for online store of designer
-                  furniture. HTML5, CSS3 (SCSS)
+                  Developed a IaaS for cloud computing. It is an API based web application which provides services to create, delete and manage virtual machines
+                  A simple Iaas platform built with ASP.NET Core,Entity Framework and C# C-Sharp .
+                  It provides virtual servers to users on cloud.
                 </p>
                 <form>
                 <div className="flex mt-12 gap-2">
-  
-                  <button formMethod="get" formAction="https://google.com/" className="flex-1 text-sm py-3 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
-                    Live preview
-                  </button>
-           
-                 
                   <button formMethod="get" formAction="https://github.com/poomainthan/Counterfiet-Deterrence-System-IoT-.git" className="flex-1 text-sm py-3 border rounded-full hover:border-blue-500 hover:text-blue-500" >
                     Checkout github
                   </button>
