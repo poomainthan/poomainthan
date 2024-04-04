@@ -13,7 +13,7 @@ body {
   
   overflow: hidden;
   border-right: 2px solid #fff;
-  animation: typing-text steps(40) 4s infinite, blink ease 0.3s infinite;
+  animation: typing-text steps(40) 4s infinite , blink ease 0.3s infinite;
   text-wrap: nowrap ;
   display: inline-block;
   width: max-content;

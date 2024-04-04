@@ -110,16 +110,17 @@ function App() {
           <div className="container m-auto px-4 sm:py-12 flex flex-col">
             <h2 className="text-2xl font-semibold">Projects</h2>
             <div className="flex flex-col sm:flex-row gap-10 mt-11">
-              <div className="border border-gray-500 rounded-md p-5 flex-1">
+              <div className="border border-gray-500 rounded-xl p-5 flex-1">
                 <img src={Project1} className="w-full h-auto" />
                 <h3 className="text-2xl font-semibold mt-8">
                 Counterfiet Deterrence System using UV 
                 </h3>
                 <p className="text-gray-400 text-sm mt-2">
-                  This  project was done  as part of the coursework for my Computer Science and Business Systems(CSBS) degree at
+                This  project was done  as part of the and <b><u>National level MOE conducted Hackathon (KAVACH 2023) </u></b>coursework for my Computer Science and Business Systems(CSBS) degree at
                   A simple and efficient system for detecting counterfeit products using Ultraviolet(UV) light technology. The project was developed
-                  an Artificial Intelligence based system for detecting counterfeit products in  the marketplace utilizing Ultraviolet in Photocopy machine.
+                  an Artificial Intelligence based system for <b>detecting counterfeit products</b> in  the marketplace utilizing Ultraviolet in Photocopy machine.
                 </p>
+                
                 <form>
                 <div className="flex mt-12 gap-2">
   
@@ -133,15 +134,24 @@ function App() {
                 </div>
                 </form>
               </div>
-              <div className="border border-gray-500 rounded-md p-5 flex-1">
+              <div className="border border-gray-500 rounded-xl p-5 flex-1">
                 <img src={Project2} className="w-full h-auto" />
                 <h3 className="text-2xl font-semibold mt-8">
-                  (IaaS) based Cloudy
+                  Cloud Hosting Space Renting System (Cloudy)
                 </h3>
                 <p className="text-gray-400 text-sm mt-2">
                   Developed a IaaS for cloud computing. It is an API based web application which provides services to create, delete and manage virtual machines
                   A simple Iaas platform built with ASP.NET Core,Entity Framework and C# C-Sharp .
                   It provides virtual servers to users on cloud.
+                  <br>
+                  </br>
+                  
+                  <br>
+                  </br>
+                  <br>
+                  </br>
+                  <br>
+                  </br>
                 </p>
                 <form>
                 <div className="flex mt-12 gap-2">
@@ -155,7 +165,7 @@ function App() {
               </div>
             </div>
             <div className="flex flex-col sm:flex-row  gap-10 mt-11">
-              <div className="border border-gray-500 rounded-md p-5 flex-1">
+              <div className="border border-gray-500 rounded-xl p-5 flex-1">
                 <img src={Project3} className="w-full h-auto" />
                 <h3 className="text-2xl font-semibold mt-8">
                   Landing page for front-end developer
@@ -180,23 +190,22 @@ function App() {
                 </div>
                 </form>
               </div>
-              <div className="border border-gray-500 rounded-md p-5 flex-1">
+              <div className="border border-gray-500 rounded-xl p-5 flex-1">
                 <img src={Project4} className="w-full h-auto" />
                 <h3 className="text-2xl font-semibold mt-8">
-                  Website redesign for The Venus project
+                  AOSP Architecture x86_64 based  Android System
                 </h3>
                 <p className="text-gray-400 text-sm mt-2">
-                  Responsive HTML/CSS layout for The Venus project. HTML5, CSS3
-                  (SCSS)
+                  
+                  AOSP(Android Open Source Project) is an open source project that develops the core software of Android operating system
+                  Documentation and analysis of the  X86_64 architecture in
+                  the Android Open Source Project's kernel.I Build and reverse Engineered some kernels and optimized thE whole System/Project(AOSP).
+                  Espicially for gamers who like playing mobile games on Pc.
+                  <br></br>
+                  Check out my  project here <a href="https://t.me/pgtvgamers"><b><u>PGTVGAMERS</u></b></a>
                 </p>
                 <form>
                 <div className="flex mt-12 gap-2">
-  
-                  <button formMethod="get" formAction="https://google.com/" className="flex-1 text-sm py-3 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
-                    Live preview
-                  </button>
-           
-                 
                   <button formMethod="get" formAction="https://github.com/poomainthan/Counterfiet-Deterrence-System-IoT-.git" className="flex-1 text-sm py-3 border rounded-full hover:border-blue-500 hover:text-blue-500" >
                     Checkout github
                   </button>
@@ -222,7 +231,7 @@ function App() {
               </div>
               <div className="mt-8">
                 <div className="flex justify-between items-center">
-                  <h2 className="font-semibold">CSS, Sass & Bootstrap</h2>
+                  <h2 className="font-semibold">CSS</h2>
                   <p className="text-gray-500">Advanced</p>
                 </div>
                 <span className="w-full h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md" />
@@ -230,7 +239,7 @@ function App() {
               <div className="mt-8">
                 <div className="flex justify-between items-center">
                   <h2 className="font-semibold">
-                    JavaScript, TypeScript, JQuery
+                    JavaScript, React, Tailwind
                   </h2>
                   <p className="text-gray-500">Advanced</p>
                 </div>
