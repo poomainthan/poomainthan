@@ -5,9 +5,9 @@ import Project1 from "./assets/UVMoneyDetector.jpg";
 import Project2 from "./assets/project02.png";
 import Project3 from "./assets/project3.png";
 import Project4 from "./assets/AOSP.jpeg";
-import Facebook from "./assets/facebook.svg";
 import LinkedIn from "./assets/linkedin.svg";
 import Instagram from "./assets/instagram.svg";
+import git from "./assets/git.svg";
 import ArrowDown from "./assets/arrow-down.svg";
 
 import { useEffect, useState } from "react";
@@ -199,7 +199,7 @@ function App() {
                   
                   AOSP(Android Open Source Project) is an open source project that develops the core software of Android operating system
                   Documentation and analysis of the  X86_64 architecture in
-                  the Android Open Source Project's kernel.I Build and reverse Engineered some kernels and optimized thE whole System/Project(AOSP).
+                  the Android Open Source Project{"'"}s kernel.I Build and reverse Engineered some kernels and optimized thE whole System/Project(AOSP).
                   Espicially for gamers who like playing mobile games on Pc.
                   <br></br>
                   Check out my  project here <a href="https://t.me/pgtvgamers"><b><u>PGTVGAMERS</u></b></a>
@@ -219,69 +219,41 @@ function App() {
         </section>
         {/* Technoglies section */}
         <section className="py-10" id="technologies">
-          <div className="container m-auto px-4">
-            <h2 className="text-2xl font-semibold">Technologies</h2>
-            <div className="mt-14">
+          
+          <div className="container m-auto px-4 py-14">
+            <h2 className="text-2xl font-semibold">Technologies and Skills
+            </h2>
+
+
+            
+            <div className="flex flex-col sm:flex-row gap-4 sm:gap-28 mt-12 w-[80%]">
               <div>
-                <div className="flex justify-between items-center">
-                  <h2 className="font-semibold">HTML</h2>
-                  <p className="text-gray-500">Advanced</p>
-                </div>
-                <span className="w-full h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md" />
+                <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-5">
+                Androidx86
+                </p>
               </div>
-              <div className="mt-8">
-                <div className="flex justify-between items-center">
-                  <h2 className="font-semibold">CSS</h2>
-                  <p className="text-gray-500">Advanced</p>
-                </div>
-                <span className="w-full h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md" />
+              <div>
+                <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-5">
+                  IoT
+                </p>
               </div>
-              <div className="mt-8">
-                <div className="flex justify-between items-center">
-                  <h2 className="font-semibold">
-                    JavaScript, React, Tailwind
-                  </h2>
-                  <p className="text-gray-500">Advanced</p>
-                </div>
-                <span className="w-full h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md" />
+              <div>
+                <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-5">
+                  .NET
+                </p>
               </div>
-              <div className="mt-8">
-                <div className="flex justify-between items-center">
-                  <h2 className="font-semibold">UI design in Figma</h2>
-                  <p className="text-gray-500">Advanced</p>
-                </div>
-                <span className="w-[75%] h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md" />
+              <div>
+                <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-5">
+                  Networking
+                </p>
               </div>
-              <div className="mt-8">
-                <div className="flex justify-between items-center">
-                  <h2 className="font-semibold">Angular</h2>
-                  <p className="text-gray-500">Advanced</p>
-                </div>
-                <span className="w-[50%] h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md" />
-              </div>
-              <div className="mt-8">
-                <div className="flex justify-between items-center">
-                  <h2 className="font-semibold">React</h2>
-                  <p className="text-gray-500">Advanced</p>
-                </div>
-                <span className="w-[90%] h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md" />
-              </div>
-              <div className="mt-8">
-                <div className="flex justify-between items-center">
-                  <h2 className="font-semibold">React Native</h2>
-                  <p className="text-gray-500">Advanced</p>
-                </div>
-                <span className="w-[45%] h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md" />
+              <div>
+                <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-5">
+                Cybersecurity
+                </p>
               </div>
             </div>
-          </div>
-        </section>
-        {/* Additional skills section */}
-        <section>
-          <div className="container m-auto px-4 py-14">
-            <h2 className="text-2xl font-semibold">
-              Additional technologies and skills
-            </h2>
+
             <div className="flex flex-col sm:flex-row gap-4 sm:gap-28 mt-12 w-[80%]">
               <div>
                 <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-5">
@@ -290,7 +262,7 @@ function App() {
               </div>
               <div>
                 <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-5">
-                  Wordpress
+                  IoT
                 </p>
               </div>
               <div>
@@ -300,27 +272,28 @@ function App() {
               </div>
               <div>
                 <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-5">
-                  Quick learning
+                  Quick_learning
+                </p>
+              </div>
+              <div>
+                <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative right-4.5 left-5">
+                  Entrepreneurship_Development
                 </p>
               </div>
             </div>
-            <div className="flex flex-col sm:flex-row gap-4 sm:gap-36 mt-4 sm:mt-6 w-[80%]">
-              <div>
-                <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-5">
-                  Engagement
-                </p>
-              </div>
-              <div>
-                <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-5">
-                  B2 english
-                </p>
-              </div>
-              <div>
-                <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-5">
-                  RWD
-                </p>
-              </div>
-            </div>
+
+
+            
+            
+
+
+
+
+
+
+
+
+
           </div>
         </section>
         <section className="py-8" id="aboutme">
@@ -328,50 +301,40 @@ function App() {
             <h2 className="text-2xl font-semibold">About me</h2>
             <div className="mt-12 relative before:absolute before:top-0 before:left-16 before:rounded-full before:bottom-10 sm:before:bottom-2 before:w-1 before:bg-white">
               <div className="pl-24 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:absolute before:rounded-full before:left-[58px]">
-                <h3 className="absolute left-0 text-lg font-semibold">2015</h3>
+                
+                <h4 className="absolute right-[830px] text-lg font-semibold ">
+                  2021→2025</h4>
                 <p>
-                  Graduated KTC (Krasnodar Technical College) and for about two
-                  years worked with high voltage (35, 110kV) substations as the
-                  specialty electrician of emergency mobile crew. Later
-                  qualified as a Crossfit trainer.
+                  Currently Pursing my B.Tech(CSBS) Bachelor degree in KIT-KalaignarKarunanidhi Institute Of Technology
+                  Coimbatore,TamilNadu-641402
                 </p>
               </div>
               <div className="pl-24 mt-24 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:absolute before:rounded-full before:left-[58px]">
-                <h3 className="absolute left-0 text-lg font-semibold">2015</h3>
+                <h3 className="absolute right-[830px] text-lg font-semibold">2019→2021</h3>
                 <p>
-                  Underwent a digital marketing course and started to work as a
-                  PPC and project manager in a local web studio. After 3 months
-                  started my own freelance practice.
+                  HSC - 12th Government Higher Secondary School in Dharapuram,Tirupur District-638641
                 </p>
               </div>
               <div className="pl-24 mt-24 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:absolute before:rounded-full before:left-[58px]">
-                <h3 className="absolute left-0 text-lg font-semibold">2015</h3>
+                <h3 className="absolute right-[830px] text-lg font-semibold">2018→2019</h3>
                 <p>
-                  Became more interested in IT and decided to try programming.
-                  Underwent Java course and made a project.
+                SSLC- 10th IGMS-Indhira Gandhi Matriculations  School,Dharapuram,Tirupur District-638641
                 </p>
               </div>
-              <div className="pl-24 mt-24 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:absolute before:rounded-full before:left-[58px]">
-                <h3 className="absolute left-0 text-lg font-semibold">2015</h3>
-                <p>
-                  Worked out in which field I want to build a developers career
-                  and started to learn Frontend Development.
-                </p>
-              </div>
+              
+
             </div>
           </div>
         </section>
       </main>
       <footer>
-        <div className="container m-auto flex justify-between px-4 py-6">
+        <div className="container m-auto flex justify-center px-4 py-6">
+      
           <div>
-            <p className="text-gray-300 text-sm">Copyright @ 2023</p>
-          </div>
-          <div>
-            <ul className="flex gap-4">
+            <ul className="flex gap-4 justify-end items-center">
               <li>
-                <a>
-                  <img src={Facebook} className="w-5" />
+                <a href="https://github.com/poomainthan">
+                  <img src={git} className="w-5" />
                 </a>
               </li>
               <li>
