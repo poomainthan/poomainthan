@@ -8,6 +8,7 @@ import Project4 from "./assets/AOSP.jpeg";
 import LinkedIn from "./assets/linkedin.svg";
 import Instagram from "./assets/instagram.svg";
 import git from "./assets/git.svg";
+import img from "./assets/hero-lines.svg";
 import ArrowDown from "./assets/arrow-down.svg";
 
 import { useEffect, useState } from "react";
@@ -63,7 +64,7 @@ function App() {
           </div>
         </div>
       </header>
-      <main className="relative mt-28">
+      <main className="relative mt-28 body" style={{ backgroundImage:`url(${img})`, backgroundRepeat:"no-repeat", backgroundPosition:"cover"}}  id="body">
 
         {
         /* Intro/Banner section */
