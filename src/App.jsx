@@ -64,7 +64,7 @@ function App() {
           </div>
         </div>
       </header>
-      <main className="relative mt-28 body" style={{ backgroundImage:`url(${img})`, backgroundRepeat:"no-repeat", backgroundPosition:"cover"}}  id="body">
+      <main className="relative mt-28 body place-items-center" style={{ backgroundImage:`url(${img})`, backgroundPositionX:"center", backgroundRepeat:"no-repeat", backgroundPosition:"cover"}}  id="body">
 
         {
         /* Intro/Banner section */
