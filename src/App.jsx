@@ -39,7 +39,7 @@ function App() {
           <div className="flex flex-col gap-4 sm:flex-row justify-between items-center ">
             <div>
               {
-              <a href="#home" className="font-bold text-2xl text-gray-300 hover:text-white cursor-pointer"><h1>Home</h1></a>
+              <a href="#home" className="font-bold text-2xl text-gray-300 hover:text-white cursor-pointer"><h1><AnimatedGif src=""/> Home</h1></a>
               }
             </div>
             
