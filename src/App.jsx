@@ -10,6 +10,7 @@ import Instagram from "./assets/instagram.svg";
 import git from "./assets/git.svg";
 import img from "./assets/hero-lines.svg";
 import ArrowDown from "./assets/arrow-down.svg";
+import gif from "./assets/unnamed.gif";
 
 import { useEffect, useState } from "react";
 
@@ -39,7 +40,7 @@ function App() {
           <div className="flex flex-col gap-4 sm:flex-row justify-between items-center ">
             <div>
               {
-              <a href="#home" className="font-bold text-2xl text-gray-300 hover:text-white cursor-pointer"><h1><img src="src\assets\m2.gif"/> Home</h1></a>
+              <a href="#home" className="font-bold text-2xl text-gray-300 hover:text-white cursor-pointer"><img src={gif} width={50} height={50} /></a>
               }
             </div>
             
