@@ -2,16 +2,6 @@ html {
   scroll-behavior: smooth;
 }
 
-sss {
-  background: gray;
-  position: absolute;
-  height: 75%;
-  width: auto;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-}
-
 body {
   background-color: #000000;
   color: #fff;

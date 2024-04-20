@@ -32,13 +32,14 @@ function App() {
   }, [])
 
   return (
-    <div className="max-w-4xl m-auto relative">
+    <div id="home">
+    <div className="max-w-6xl m-auto relative">
       <header className={`${scrolling ? ' border-b border-gray-900' : ''}  fixed left-0 bg-black right-0 top-0 z-20`} id="home">
         <div className="container m-auto px-4 py-6 max-w-full bg-black">
           <div className="flex flex-col gap-4 sm:flex-row justify-between items-center ">
             <div>
               {
-              <h1 className="font-bold text-2xl ">Home</h1>
+              <a href="#home" className="font-bold text-2xl text-gray-300 hover:text-white cursor-pointer"><h1>Home</h1></a>
               }
             </div>
             
@@ -64,13 +65,13 @@ function App() {
           </div>
         </div>
       </header>
-      <main className="relative mt-28 body place-items-center" style={{ backgroundImage:`url(${img})`, backgroundPositionX:"center", backgroundRepeat:"no-repeat", backgroundPosition:"cover"}}  id="body">
+      <main className="relative mt-28 body place-items-center" style={{ backgroundImage:`url(${img})`, backgroundPositionX:"center", backgroundRepeat:"no-repeat", backgroundPosition:"cover"}}>
 
         {
         /* Intro/Banner section */
         }
 
-        <section>
+        <section >
           <div className="container m-auto px-4 pt-12 pb-12 sm:pt-20 flex flex-col sm:flex-row gap-6  sm:text-left">
             <div>
               <h2 className="font-bold text-4xl ">Hi, Its Poomainthan M,</h2>
@@ -101,7 +102,7 @@ function App() {
             </div>
             <div className="relative">
               <div className="after:bg-[url('./src/large-long.png') after:bg-contain after:block  after:w-[400px] after:h-[400px] after:absolute  after:top-20 after:-left-40 sm:after:-left-70 before:bg-[url('./src/small.png') before:bg-contain before:block before:bg-no-repeat before:w-[550px] before:h-[550px] before:absolute before:bottom-0 before:-right-50 ">
-                <img src={Porfile} className="relative z-10 w-[280px] m-auto sm:w-[600px] profile-picture" />
+                <img src={Porfile} className="relative z-10 w-[200px] m-auto sm:w-[550px] profile-picture" />
               </div>
             </div>
           </div>
@@ -361,6 +362,7 @@ function App() {
           </button>
         )
       }
+    </div>
     </div>
   );
 }
