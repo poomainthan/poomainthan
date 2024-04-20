@@ -43,7 +43,6 @@ function App() {
               <a href="#home" className="font-bold text-2xl text-gray-300 hover:text-white cursor-pointer"><img src={gif} width={30} height={30} /></a>
               }
             </div>
-            
             <div>
               <ul className="flex gap-4">
                 <li>
