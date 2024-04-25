@@ -8,7 +8,9 @@ import Project4 from "./assets/AOSP.jpeg";
 import LinkedIn from "./assets/linkedin.svg";
 import Instagram from "./assets/instagram.svg";
 import git from "./assets/git.svg";
+import img from "./assets/hero-lines.svg";
 import ArrowDown from "./assets/arrow-down.svg";
+import gif from "./assets/unnamed.gif";
 
 import { useEffect, useState } from "react";
 
@@ -31,16 +33,16 @@ function App() {
   }, [])
 
   return (
-    <div className="max-w-4xl m-auto relative">
+    <div id="home">
+    <div className="max-w-6xl m-auto relative">
       <header className={`${scrolling ? ' border-b border-gray-900' : ''}  fixed left-0 bg-black right-0 top-0 z-20`} id="home">
         <div className="container m-auto px-4 py-6 max-w-full bg-black">
           <div className="flex flex-col gap-4 sm:flex-row justify-between items-center ">
             <div>
               {
-              <h1 className="font-bold text-2xl ">Home</h1>
+              <a href="#home" className="font-bold text-2xl text-gray-300 hover:text-white cursor-pointer"><img src={gif} width={30} height={30} /></a>
               }
             </div>
-            
             <div>
               <ul className="flex gap-4">
                 <li>
@@ -63,13 +65,13 @@ function App() {
           </div>
         </div>
       </header>
-      <main className="relative mt-28">
+      <main className="relative mt-28 body place-items-center" style={{ backgroundImage:`url(${img})`, backgroundPositionX:"center", backgroundRepeat:"no-repeat", backgroundPosition:"cover"}}>
 
         {
         /* Intro/Banner section */
         }
 
-        <section>
+        <section >
           <div className="container m-auto px-4 pt-12 pb-12 sm:pt-20 flex flex-col sm:flex-row gap-6  sm:text-left">
             <div>
               <h2 className="font-bold text-4xl ">Hi, Its Poomainthan M,</h2>
@@ -100,7 +102,7 @@ function App() {
             </div>
             <div className="relative">
               <div className="after:bg-[url('./src/large-long.png') after:bg-contain after:block  after:w-[400px] after:h-[400px] after:absolute  after:top-20 after:-left-40 sm:after:-left-70 before:bg-[url('./src/small.png') before:bg-contain before:block before:bg-no-repeat before:w-[550px] before:h-[550px] before:absolute before:bottom-0 before:-right-50 ">
-                <img src={Porfile} className="relative z-10 w-[280px] m-auto sm:w-[600px] profile-picture" />
+                <img src={Porfile} className="relative z-10 w-[200px] m-auto sm:w-[550px] profile-picture" />
               </div>
             </div>
           </div>
@@ -120,7 +122,8 @@ function App() {
                   A simple and efficient system for detecting counterfeit products using Ultraviolet(UV) light technology. The project was developed
                   an Artificial Intelligence based system for <b>detecting counterfeit products</b> in  the marketplace utilizing Ultraviolet in Photocopy machine.
                 </p>
-                
+                <br>
+                </br>
                 <form>
                 <div className="flex mt-12 gap-2">
   
@@ -145,21 +148,14 @@ function App() {
                   It provides virtual servers to users on cloud.
                   <br>
                   </br>
-                  
-                  <br>
-                  </br>
-                  <br>
-                  </br>
                   <br>
                   </br>
                 </p>
                 <form>
                 <div className="flex mt-12 gap-2">
-                  <button formMethod="get" formAction="https://github.com/poomainthan/Counterfiet-Deterrence-System-IoT-.git" className="flex-1 text-sm py-3 border rounded-full hover:border-blue-500 hover:text-blue-500" >
+                  <button formMethod="get" formAction="https://github.com/poomainthan/Cloudy-The_Cloud_Space_Renting.git" className="flex-1 text-sm py-3 border rounded-full hover:border-blue-500 hover:text-blue-500" >
                     Checkout github
                   </button>
-                  
-      
                 </div>
                 </form>
               </div>
@@ -168,25 +164,21 @@ function App() {
               <div className="border border-gray-500 rounded-xl p-5 flex-1">
                 <img src={Project3} className="w-full h-auto" />
                 <h3 className="text-2xl font-semibold mt-8">
-                  Landing page for front-end developer
+                React and Tailwind based Landing page
                 </h3>
                 <p className="text-gray-400 text-sm mt-2">
-                  Responsive HTML/CSS layout for landing page for front-end
-                  developer. HTML5, CSS3 (SCSS)
+                  Responsive React and Tailwind CSS layout for front-end
                 </p>
+                <br>
+                  </br>
+                  <br>
+                  </br>
+
                 <form>
                 <div className="flex mt-12 gap-2">
-  
-                  <button formMethod="get" formAction="https://google.com/" className="flex-1 text-sm py-3 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
-                    Live preview
-                  </button>
-           
-                 
-                  <button formMethod="get" formAction="https://github.com/poomainthan/Counterfiet-Deterrence-System-IoT-.git" className="flex-1 text-sm py-3 border rounded-full hover:border-blue-500 hover:text-blue-500" >
+                  <button formMethod="get" formAction="https://github.com/poomainthan/poomainthan.git" className="flex-1 text-sm py-3 border rounded-full hover:border-blue-500 hover:text-blue-500" >
                     Checkout github
                   </button>
-                  
-      
                 </div>
                 </form>
               </div>
@@ -206,7 +198,7 @@ function App() {
                 </p>
                 <form>
                 <div className="flex mt-12 gap-2">
-                  <button formMethod="get" formAction="https://github.com/poomainthan/Counterfiet-Deterrence-System-IoT-.git" className="flex-1 text-sm py-3 border rounded-full hover:border-blue-500 hover:text-blue-500" >
+                  <button formMethod="get" formAction="https://github.com/poomainthan/Androidx86_based_PGTV_OS.git" className="flex-1 text-sm py-3 border rounded-full hover:border-blue-500 hover:text-blue-500" >
                     Checkout github
                   </button>
                   
@@ -360,6 +352,7 @@ function App() {
           </button>
         )
       }
+    </div>
     </div>
   );
 }
